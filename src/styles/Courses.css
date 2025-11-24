@@ -1,0 +1,8 @@
+.courses-grid {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px,1fr));
+    gap:18px;
+    margin-top:18px;
+  }
+  .course-card { padding:16px; border-radius:12px; }
+  .course-title { font-size:18px; font-weight:700; color:var(--dark-blue); margin-bottom:6px; }
